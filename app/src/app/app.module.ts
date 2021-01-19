@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormDebugComponent } from './form-debug/form-debug.component';
+import { ListaTarefasComponent } from './lista-tarefas/lista-tarefas.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    FormDebugComponent
+    FormDebugComponent,
+    ListaTarefasComponent
 
   ],
   imports: [
