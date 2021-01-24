@@ -9,13 +9,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormDebugComponent } from './form-debug/form-debug.component';
 import { ListaTarefasComponent } from './lista-tarefas/lista-tarefas.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { UsuarioTarefasComponent } from './usuario-tarefas/usuario-tarefas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     FormDebugComponent,
-    ListaTarefasComponent
+    ListaTarefasComponent,
+    UsuarioTarefasComponent
 
   ],
   imports: [
