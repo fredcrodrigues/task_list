@@ -34,8 +34,19 @@
     color: #0062cc;
     background-color: #fff;
 }
+.login-form-2 .ForgetRgT{
+    color: #fff;
+    font-weight: 600;
+    font-size:12px;
+    text-decoration: none;
+    
+}
+
 .login-form-2 .ForgetPwd{
     color: #fff;
     font-weight: 600;
+    font-size:12px;
     text-decoration: none;
+    margin-left: 100px;
 }
+
