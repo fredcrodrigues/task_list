@@ -1,8 +1,19 @@
+.nav-color{
+    background: #0062cc;
+}
+
 .listContainer {
     background: #DCDCDC;
     border-radius: 10px;
 }
-
+.btn-trash{   
+    margin-left:5px;
+    margin-right:5px;  
+}
+.btn-pen{
+    margin-left:5px;
+    margin-right:5px;
+}
 .tarefas{
     margin-top: 20px;
 }

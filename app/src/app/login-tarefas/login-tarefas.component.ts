@@ -4,8 +4,8 @@ import { FormBuilder, FormGroup} from '@angular/forms';
 
 @Component({
   selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  templateUrl: './login-tarefas.component.html',
+  styleUrls: ['./login-tarefas.component.css']
 })
 export class LoginComponent implements OnInit {
 

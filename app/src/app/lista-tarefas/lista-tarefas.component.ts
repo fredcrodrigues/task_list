@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faTrash , faPen} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-lista-tarefas',
@@ -9,6 +9,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 export class ListaTarefasComponent implements OnInit {
 
   faTrash = faTrash;
+  faPen = faPen;
 
   constructor() { }
 
