@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-usuario-tarefas',
   templateUrl: './usuario-tarefas.component.html',
@@ -7,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsuarioTarefasComponent implements OnInit {
 
+
+ 
   constructor() { }
 
   ngOnInit(): void {
