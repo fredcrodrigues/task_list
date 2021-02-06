@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login-tarefas/login-tarefas.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -10,6 +9,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { UsuarioTarefasComponent } from './usuario-tarefas/usuario-tarefas.component';
 import { NavTarefasComponent } from './nav-tarefas/nav-tarefas.component';
 import { importType } from '@angular/compiler/src/output/output_ast';
+import { routing } from './app-routing.module';
 
 
 
@@ -27,10 +27,10 @@ import { importType } from '@angular/compiler/src/output/output_ast';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

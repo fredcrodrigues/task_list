@@ -1,10 +1,19 @@
-import { NgModule } from '@angular/core';
+import {ModuleWithProviders} from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+import { ListaTarefasComponent } from './lista-tarefas/lista-tarefas.component';
+import { LoginComponent } from './login-tarefas/login-tarefas.component';
+import { UsuarioTarefasComponent } from './usuario-tarefas/usuario-tarefas.component';
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+const routes: Routes = [
+/*declarar rotas*/
+  {path:'login' , component: LoginComponent},
+  {path:'cadastro' , component:UsuarioTarefasComponent},
+  {path:'', component:ListaTarefasComponent}
+
+];
+
+
+export const routing: ModuleWithProviders<any> = RouterModule.forRoot(routes);
+
+
