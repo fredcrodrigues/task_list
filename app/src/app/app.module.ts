@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login-tarefas/login-tarefas.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormDebugComponent } from './form-debug/form-debug.component';
 import { ListaTarefasComponent } from './lista-tarefas/lista-tarefas.component';
@@ -12,17 +11,17 @@ import { importType } from '@angular/compiler/src/output/output_ast';
 import { routing } from './app-routing.module';
 
 
+import { UserTaskModule } from './user-task/user-task.module';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
     FormDebugComponent,
     ListaTarefasComponent,
     UsuarioTarefasComponent,
-    NavTarefasComponent
+    NavTarefasComponent,
 
   ],
   imports: [
@@ -30,6 +29,7 @@ import { routing } from './app-routing.module';
     FormsModule,
     ReactiveFormsModule,
     FontAwesomeModule,
+    UserTaskModule,
     routing
   ],
   providers: [],

@@ -1,14 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup} from '@angular/forms';
 
-
 @Component({
-  selector: 'app-login',
-  templateUrl: './login-tarefas.component.html',
-  styleUrls: ['./login-tarefas.component.css']
+  selector: 'app-user-login',
+  templateUrl: './user-login.component.html',
+  styleUrls: ['./user-login.component.css']
 })
-export class LoginComponent implements OnInit {
-
+export class UserLoginComponent implements OnInit {
   formulario!: FormGroup;
 
   constructor(private formBuilder: FormBuilder) { }
@@ -26,6 +24,4 @@ export class LoginComponent implements OnInit {
     });
 
   }
-
-
 }
