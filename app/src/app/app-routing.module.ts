@@ -8,7 +8,6 @@ const routes: Routes = [
 /*declarar rotas*/
   {path:'cadastro' , component:UsuarioTarefasComponent},
   {path:'', component:ListaTarefasComponent}
-
 ];
 
 
