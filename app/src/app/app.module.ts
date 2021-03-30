@@ -5,7 +5,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormDebugComponent } from './form-debug/form-debug.component';
 import { ListaTarefasComponent } from './lista-tarefas/lista-tarefas.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { UsuarioTarefasComponent } from './usuario-tarefas/usuario-tarefas.component';
 import { NavTarefasComponent } from './nav-tarefas/nav-tarefas.component';
 import { importType } from '@angular/compiler/src/output/output_ast';
 import { routing } from './app-routing.module';
@@ -20,7 +19,6 @@ import { UserTaskModule } from './user-task/user-task.module';
     AppComponent,
     FormDebugComponent,
     ListaTarefasComponent,
-    UsuarioTarefasComponent,
     NavTarefasComponent,
 
   ],

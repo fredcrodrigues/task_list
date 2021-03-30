@@ -5,16 +5,17 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 import { UserLoginComponent } from './user-login/user-login.component';
+import { UserFormComponent } from './user-form/user-form.component';
 
 
 
 @NgModule({
-  declarations: [UserLoginComponent],
+  declarations: [UserLoginComponent, UserFormComponent],
  
   imports: [CommonModule ,   
   FormsModule , 
   ReactiveFormsModule],
  
-  exports: [ UserLoginComponent]
+  exports: [ UserLoginComponent , UserFormComponent]
 })
 export class UserTaskModule { }
