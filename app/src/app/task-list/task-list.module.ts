@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { CadTaskComponent } from './cad-task/cad-task.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NavTaskComponent } from './nav-task/nav-task.component';
 
 
 
  
 @NgModule({
-  declarations: [CadTaskComponent],
+  declarations: [CadTaskComponent, NavTaskComponent],
   imports: [
     CommonModule , 
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
-  exports: [CadTaskComponent ,]
+  exports: [CadTaskComponent , NavTaskComponent]
 })
 export class TaskListModule { }

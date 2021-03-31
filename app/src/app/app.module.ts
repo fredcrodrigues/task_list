@@ -17,7 +17,8 @@ import{ TaskListModule }  from './task-list/task-list.module';
 @NgModule({
   declarations: [
     AppComponent,
-    NavTarefasComponent,
+    NavTarefasComponent
+ 
 
   ],
   imports: [
@@ -28,6 +29,7 @@ import{ TaskListModule }  from './task-list/task-list.module';
     TaskListModule,
     routing
   ],
+ 
   providers: [],
   bootstrap: [AppComponent]
 })
