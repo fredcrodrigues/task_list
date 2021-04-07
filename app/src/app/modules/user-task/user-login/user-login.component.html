@@ -1,0 +1,47 @@
+<!--
+<div class="container login-container">
+    <div class="row d-flex justify-content-center">
+       
+        <div class=" col-md-4 login-form-2">
+            <h3>Login</h3>
+            <form [formGroup]="formulario">
+                <div class="form-group">
+                    <input type="text" class="form-control"  formControlName="email" placeholder="Digite seu Email" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" formControlName="senha"  placeholder="Digite a sua senha" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btnSubmit" value="Login" />
+                </div>
+                <div class="form-group">
+
+                    <a href="#" class="ForgetRgT" value="Login">Cadastrata-se Já</a>
+                    <a href="#" class="ForgetPwd" value="Login">Esqueceu Senha?</a>
+                </div>
+                 
+            </form>
+        </div>
+    </div>
+</div>
+<app-form-debug [form]="formulario"></app-form-debug>--> <!--Testando Formulario Reativo-->
+<div class="formGroup">
+    <form class="form">
+        <div class="inputs_login">
+             
+             <div class="inputs_titulo"><h2>Login</h2></div>
+             <mat-form-field class="full-width">
+                    <mat-label>Usuário</mat-label>
+                    <input matInput placeholder="Email">
+              </mat-form-field>
+        
+            <mat-form-field class="full-width">
+                <mat-label>Senha</mat-label>
+                <input matInput placeholder="Senha">
+            </mat-form-field>
+        </div>
+        <button mat-raised-button class='input_button'color="primary">Primary</button>
+    </form>
+</div>
+
+

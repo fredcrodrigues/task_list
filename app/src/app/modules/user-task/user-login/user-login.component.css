@@ -1,0 +1,41 @@
+
+.FormGroup{
+
+    margin: auto;
+    padding: 50px;
+    opacity: 2px;
+  
+}
+.mat-form-field{
+    margin: 10px;
+} 
+.inputs_titulo{
+
+ text-align: center;
+
+}
+
+
+.form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin:auto;
+    margin-top: 10%;
+   
+    margin-bottom: 10%;
+  
+  }
+  
+.full-width {
+    width: 100%;
+}
+
+
+.input_button{
+
+   text-align: center;
+   margin-left: 40%; 
+   margin-bottom: 40%;
+  }
+  

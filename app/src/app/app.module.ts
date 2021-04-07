@@ -3,20 +3,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { importType } from '@angular/compiler/src/output/output_ast';
-import { routing } from './app-routing.module';
+import { UserTaskModule } from './modules/user-task/user-task.module';
+import { TaskListModule } from './modules/task-list/task-list.module';
 
-
-import { UserTaskModule } from './user-task/user-task.module';
-import{ TaskListModule }  from './task-list/task-list.module';
-
-
-
+import { AppRoutingModule } from './app-routing.module';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
-    AppComponent,   
- 
+    AppComponent,
 
   ],
   imports: [
@@ -25,9 +20,13 @@ import{ TaskListModule }  from './task-list/task-list.module';
     ReactiveFormsModule,
     UserTaskModule,
     TaskListModule,
-    routing
+    AppRoutingModule,
+    MatButtonModule,
+
+    
+   
   ],
- 
+
   providers: [],
   bootstrap: [AppComponent]
 })

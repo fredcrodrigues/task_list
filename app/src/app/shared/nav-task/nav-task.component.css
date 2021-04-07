@@ -1,0 +1,16 @@
+/*.nav-color{
+    background: #0062cc;
+}
+.title{
+    font-weight: 800;
+    font-family: Fantasy;
+    color:white;
+}*/
+.font{
+  font-size:15px;
+  font-family: Arial;
+  text-decoration: none;
+}
+  .example-spacer {
+    flex: 1 1 auto;
+  }
