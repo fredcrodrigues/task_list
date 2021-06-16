@@ -1,0 +1,36 @@
+[33mcommit a63384c850324d3e7da0fdf81f455e5ec0a1d429[m[33m ([m[1;36mHEAD -> [m[1;32mform-debug[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: d1438979 13133e39
+Author: Fredson Costa Rodrigues <fredsoncostaa@gmail.com>
+Date:   Sat Jan 16 11:13:06 2021 -0300
+
+    Adicionando arquivo form-debug
+
+[33mcommit d143897943a5e956d5d66222f7bb4d86057bc0f6[m
+Author: Fredson Costa Rodrigues <fredsoncostaa@gmail.com>
+Date:   Sat Jan 16 11:01:13 2021 -0300
+
+    Adicionando componente de form-debug para validar os formularios reativos
+
+[33mcommit 13133e3908fa17c1851aeb94e9e7838ca0b251bb[m[33m ([m[1;31mtask/master[m[33m)[m
+Author: Fredson Costa Rodrigues <34144716+fredcrodrigues@users.noreply.github.com>
+Date:   Sat Jan 16 09:48:51 2021 -0300
+
+    Delete README.md
+
+[33mcommit c142b0a28ef90b1e208e7edde689327050b3f232[m
+Author: Fredson Costa Rodrigues <fredsoncostaa@gmail.com>
+Date:   Sat Jan 16 09:46:19 2021 -0300
+
+    atualizando
+
+[33mcommit db826641518f6443db192d0c1d770adcc59098ce[m
+Author: Fredson Costa Rodrigues <fredsoncostaa@gmail.com>
+Date:   Sat Jan 16 09:33:46 2021 -0300
+
+    Enviando arquivos do projeto
+
+[33mcommit 8b19fd91e1ac2948433ea5041b10c42613404335[m
+Author: Fredson Costa Rodrigues <fredsoncostaa@gmail.com>
+Date:   Tue Jan 12 22:12:19 2021 -0300
+
+    initial commit
