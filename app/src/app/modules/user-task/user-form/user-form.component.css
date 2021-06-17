@@ -1,44 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-.FormGroup{
-    margin: auto;
-    padding: 50px;
-    opacity: 2px;
-  
-}
-.mat-form-field{
-    margin: 10px;
-} 
-.inputs_titulo{
-
- text-align: center;
-
-}
-
-
-.form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 100%;
-    margin:auto;
-    margin-top: 10%;
-   
-    margin-bottom: 10%;
-  
-  }
-  
-.full-width {
-    width: 100%;
-}
-
-
-.input_button{
-
-   text-align: center;
-   margin-left: 40%; 
-   margin-bottom: 40%;
-  }
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
@@ -52,6 +14,8 @@
 body, html {
 	height: 100%;
 	font-family: Arial;
+	
+	
 }
 
 /*---------------------------------------------*/
@@ -173,10 +137,14 @@ font-family: 'Poppins 200', sans-serif;
   width: 100%;
   margin: 0 auto;
 }
-
+.contain_back{
+	width: 100%; 
+	background-color: #042127;
+	padding: 97px;
+}
 .container-login100 {
   width: 100%;  
-  min-height: 100vh;
+  min-height: 90vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -186,11 +154,15 @@ font-family: 'Poppins 200', sans-serif;
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #f2f2f2;  
+  /*background-color: #21d4fd;*/
+  background-image:url('../../../img/img.png') ;
+  
+  width: auto;
+  height: auto;
 }
 
 .wrap-login100 {
-  width: 390px;
+  width:390%;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -237,7 +209,7 @@ font-family: 'Poppins 200', sans-serif;
   font-family: 'Poppins 200', sans-serif;
   font-size: 15px;
   color: #555555;
-  line-height: 1.2;
+  line-height: 1;
 
   display: block;
   width: 100%;
@@ -373,7 +345,7 @@ font-family: 'Poppins 200', sans-serif;
   display: block;
   position: relative;
   z-index: 1;
-  border-radius: 25px;
+  border-radius: 0px;
   overflow: hidden;
   margin: 0 auto;
 }
