@@ -8,6 +8,9 @@ import { TaskListModule } from './modules/task-list/task-list.module';
 import { AppRoutingModule } from './app-routing.module';
 import {MatButtonModule} from '@angular/material/button';
 
+import { AngularFireModule } from '@angular/fire';
+import {AngularFireDatabaseModule} from '@angular/fire/database';
+import { environment } from 'src/environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +24,8 @@ import {MatButtonModule} from '@angular/material/button';
     TaskListModule,
     AppRoutingModule,
     MatButtonModule,
+    AngularFireDatabaseModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig)
 
     
    
