@@ -5,9 +5,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { TaskListRouting } from './task-list.routing';
 import { CadTaskComponent } from './cad-task/cad-task.component';
+import { EditTaskComponent } from './edit-task/edit-task.component';
 
 @NgModule({
-  declarations: [CadTaskComponent  ],
+  declarations: [CadTaskComponent, EditTaskComponent  ],
   imports: [
     CommonModule , 
     FontAwesomeModule,

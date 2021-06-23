@@ -11,10 +11,9 @@ export class CadTaskComponent implements OnInit {
 
   faTrash = faTrash;
   faPen = faPen;
-
-  constructor() { }
-
+  
   ngOnInit(): void {
+
   }
 
 }

@@ -11,9 +11,11 @@ import {MatButtonModule} from '@angular/material/button';
 import { AngularFireModule } from '@angular/fire';
 import {AngularFireDatabaseModule} from '@angular/fire/database';
 import { environment } from 'src/environments/environment';
+
 @NgModule({
   declarations: [
     AppComponent,
+  
 
   ],
   imports: [
